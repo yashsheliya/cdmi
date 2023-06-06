@@ -1,12 +1,710 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.green.min.css">
+    <title>cdmi</title>
+    <script src="js/jquery-slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
 </head>
 <body>
-    
+  <header class="header">
+    <div class="bg-theme-blue tb-padding">
+      <div class="container">
+          <div class="row align-items-justify">
+              <div class="col-lg-4 col-md-3 col-sm-6 d-none d-md-block first">
+                  <a href="" class="fff "><i class="fa-regular fa-envelope mr-2 mt-1"></i>info@cdmi.in</a>
+                  <a href="" class="fff ml-3 d-lg-inline-block d-none "><i class="fa-solid fa-certificate mr-2"></i>Verify Certificate</a>
+              </div>
+              <div class="col-lg-4 col-md-5 col-sm-6 col-12 text-center">
+                 <a href="" class="text-white">HAVE ANY QUESTION ? +91 90333 16003</a>  
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6 col-12 d-flex justify-content-md-end justify-content-center third">
+                <ul class="nav justify-content-end">
+                  <li><a class="text-center fff" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a class="text-center fff" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a class="text-center fff" href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                  <li><a class="text-center fff" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                  <li><a class="text-center fff" href="#"><i class="fa-brands fa-instagram-square"></i></a></li>
+                  <li><a class="text-center fff" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                  <li><a class="text-center fff" href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light pl-0 pr-0">
+        <a class="navbar-brand main_logo" href="#"><img src="img/creative-logo-blue.svg" class="w-100" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">College Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Activities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Know Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Get in Touch</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Student Zone</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </nav>  
+    </div>
+  </header>
+  <section id="hero">
+    <div class="image_slider">
+      <div class="owl-carousel owl-theme position-relative">
+        <div class="item"><img src="img/image slider1.jpg" alt=""></div>
+        <div class="item"><img src="img/image slider 2.jpg" alt=""></div>
+        <div class="item"><img src="img/image slider 3.jpg" alt=""></div>
+        <div class="item"><img src="img/image slider 4.jpg" alt=""></div>
+        <div class="item"><img src="img/image slider 5.jpg" alt=""></div>
+        <div class="item"><img src="img/image slider 6.jpg" alt=""></div>
+        <div class="item"><img src="img/image slider 7.jpg" alt=""></div>
+        <div class="item"><img src="img/image slider 8.jpg" alt=""></div>
+        <div class="item"><img src="img/image slider 9.jpg" alt=""></div>
+      </div>
+    </div>
+    <script>
+      $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      dots:false,
+      autoplay:true,
+      autoplayTimeout:2000,
+      autoplayHoverPause:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:1
+          },
+          1000:{
+              items:1
+          }
+        }
+      })
+    </script>
+  </section>
+  <main id="main">
+    <section class="section-pt section-pb mt-5">
+      <div class="Container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-8 text-center">
+           <span class="heading d-inline-block font-size-14px ">CREATIVE COURSE</span> 
+            <h2 class="font-family-rubik mb-3">OFFERED COURSES</h2>
+          </div>
+        </div>
+        <div class="row row-gap">
+          <div class="col-lg-4 col-sm-6">
+            <div class="card card-box border-0 border-radius-10 overflow_hidden">
+              <video autoplay muted loop>
+                <source src="img/multimedia-training-institute.mp4"></source>
+              </video>
+              <div class="card-body courser-title padding-15">
+                <h5 class="card-title m-0 font-family-rubik"><a href="" class="text-black">Multimedia Courses</a></h5>
+              </div>
+              <div class="card-body padding-15 d-flex justify-content-between">
+                <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star-half-stroke text-ffbc06"></i>
+                </div>
+                <a href="#" class="btn text-white bg-theme-blue font-size-14px buttons-hover">Know More..!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card card-box border-0 border-radius-10 overflow_hidden">
+              <video autoplay muted loop>
+                <source src="img/graphics-animation-course.mp4"></source>
+              </video>
+              <div class="card-body courser-title padding-15">
+                <h5 class="card-title m-0 font-family-rubik"><a href="" class="text-black">Multimedia Courses</a></h5>
+              </div>
+              <div class="card-body padding-15 d-flex justify-content-between">
+                <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star-half-stroke text-ffbc06"></i>
+                </div>
+                <a href="#" class="btn text-white bg-theme-blue font-size-14px buttons-hover">Know More..!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card card-box border-0 border-radius-10 overflow_hidden">
+              <video autoplay muted loop>
+                <source src="img/it-training-institute.mp4"></source>
+              </video>
+              <div class="card-body courser-title padding-15">
+                <h5 class="card-title m-0 font-family-rubik"><a href="" class="text-black">Multimedia Courses</a></h5>
+              </div>
+              <div class="card-body padding-15 d-flex justify-content-between">
+                <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star-half-stroke text-ffbc06"></i>
+                </div>
+                <a href="#" class="btn text-white bg-theme-blue font-size-14px buttons-hover">Know More..!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card card-box border-0 border-radius-10 overflow_hidden">
+              <video autoplay muted loop>
+                <source src="img/letest-technology-course.mp4"></source>
+              </video>
+              <div class="card-body courser-title padding-15">
+                <h5 class="card-title m-0 font-family-rubik"><a href="" class="text-black">Multimedia Courses</a></h5>
+              </div>
+              <div class="card-body padding-15 d-flex justify-content-between">
+                <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star-half-stroke text-ffbc06"></i>
+                </div>
+                <a href="#" class="btn text-white bg-theme-blue font-size-14px buttons-hover">Know More..!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card card-box border-0 border-radius-10 overflow_hidden">
+              <video autoplay muted loop>
+                <source src="img/civil-engineering-course.mp4"></source>
+              </video>
+              <div class="card-body courser-title padding-15">
+                <h5 class="card-title m-0 font-family-rubik"><a href="" class="text-black">Multimedia Courses</a></h5>
+              </div>
+              <div class="card-body padding-15 d-flex justify-content-between">
+                <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star-half-stroke text-ffbc06"></i>
+                </div>
+                <a href="#" class="btn text-white bg-theme-blue font-size-14px buttons-hover">Know More..!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="card card-box border-0 border-radius-10 overflow_hidden">
+              <video autoplay muted loop>
+                <source src="img/mechanical-engineering-course.mp4"></source>
+              </video>
+              <div class="card-body courser-title padding-15">
+                <h5 class="card-title m-0 font-family-rubik"><a href="" class="text-black">Multimedia Courses</a></h5>
+              </div>
+              <div class="card-body padding-15 d-flex justify-content-between">
+                <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star text-ffbc06"></i>
+	  							<i class="fa-solid fa-star-half-stroke text-ffbc06"></i>
+                </div>
+                <a href="#" class="btn text-white bg-theme-blue font-size-14px buttons-hover">Know More..!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 justify-content-center d-flex mt-5">
+            <a href="" class="btn bg-color-ffbc06 text-white buttons-hover view-buttons ">View All Courses<i class="fa-solid fa-arrow-right"></i>	 </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-pt overflow_hidden section-pb">
+      <div class="w-100 ">
+        <div class="row align-items-center d-flex">
+          <div class="col-lg-7 col-md-12 order-lg-1 order-md-2 order-sm-2 order-2  p-0">
+            <div class="aboutus-text bg-white box_shadow">
+              <div class="w-100 heading-text">
+                <span class="heading d-inline-block font-size-14px ">ABOUT US</span> 
+                <h6 class="mb-3 font-family-rubik text-uppercase">IT CAREER IN SURAT, MOVING TOWARDS THE BETTER TOMORROW!</h6>
+              </div>
+               <p class="text-justify pr-4 font-size-16px">Creative Design & Multimedia Institute(CDMI) is a reputed training institute in Surat for web design, Game design,Mobile App Development, Game Development ,Video Editing & All types of IT Courses with 8 years of full-fledged, result-oriented training experience. We stepped in the market in 2014 with the goal to help students, working professionals and other interested candidates get that dream job or open that desired freelance business in some of the most popular Computer / IT fields. Our aim is to ease the hiring process for businesses and organizations by providing work-ready professionals who can contribute greatly to their success. Since then, we have worked hard to achieve this goal and dedicated our time and resources to train students extensively.</p>
+                <a href="" class="btn bg-color-ffbc06 text-white buttons-hover view-buttons ">Enroll Now..! <i class="fa-solid fa-arrow-right"></i>	 </a>
+              </div>
+          </div>
+          <div class="col-lg-5 col-md-12 order-lg-2 order-md-1 order-sm-1 order-1 p-0">
+            <div class="w-100 dropdown overlay-30">
+              <img src="img/about-us.jpg" class="w-100 "  alt="">
+              <span class="youtube-vi text-ffbc06 bg-white rounded-circle d-flex justify-content-center align-items-center  d-inline-block">
+								<i class="fa-solid fa-play"></i>
+							</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-pt section-pb mt-5 mb-5">
+      <div class="overlay-70">
+        <div class="bg-img overflow_hidden">
+          <div class="Container">
+            <div class="row">
+              <div class="col-lg-3 pb-md-3 pb-sm-3 pb-xs-3 col-6 happy-boy text-center">
+                <div class="cen-icon m-auto"></div>
+                <div class="counter-happya mt-2">
+                  <h3 class="text-white counter-text font-family-rubik"><span>8000</span>+</h3>
+                  <p class="text-white text-uppercase m-0 font-weight-bold">HAPPY STUDENTS</p>
+                </div>
+              </div>
+              <div class="col-lg-3 pb-md-3 pb-sm-3 pb-xs-3 col-6 happy-boy text-center">
+                <div class="cen-icon m-auto" style="background-position: 0 -70;"></div>
+                <div class="counter-happya mt-2">
+                  <h3 class="text-white counter-text font-family-rubik"><span>10</span>+</h3>
+                  <p class="text-white text-uppercase m-0 font-weight-bold">CERTIFICATION APPROVAL</p>
+                </div>
+              </div>
+              <div class="col-lg-3 pb-md-3 pb-sm-3 pb-xs-3 col-6 happy-boy text-center">
+                <div class="cen-icon m-auto" style="background-position: 0 -137;"></div>
+                <div class="counter-happya mt-2">
+                  <h3 class="text-white counter-text font-family-rubik"><span>60</span>+</h3>
+                  <p class="text-white text-uppercase m-0 font-weight-bold">Certified teachers</p>
+                </div>
+              </div>
+              <div class="col-lg-3 pb-md-3 pb-sm-3 pb-xs-3 col-6 happy-boy text-center">
+                <div class="cen-icon m-auto" style="background-position: 0 -206"></div>
+                <div class="counter-happya mt-2">
+                  <h3 class="text-white counter-text font-family-rubik"><span>4000</span>+</h3>
+                  <p class="text-white text-uppercase m-0 font-weight-bold">Students Placed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-pt section-pb">
+      <div class="Container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div>
+              <span class="heading d-inline-block font-size-14px ">HAPPY STUDENTS</span> 
+              <h2 class="font-family-rubik mb-3">ALUMNI SPEAK</h2>
+            </div>  
+            <div class="pr-lg-4 dropdown">
+              <div class="d-flex justify-content-between">
+                <div class="happya-quote">
+                  <i class="fa-solid fa-quote-right"></i>
+                </div>
+              </div>
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <p class="text-justify font-size-16px">My self vigna thesiya The creative multimedia institute is the best institute specially Mr.Paresh sir is the best trainer for Manual as well as front-end development, He will teach us the easiest and excellent way with real-time examples, Projects like student can easily understand.I got best training from him, also institute will mainly focus for student bright carriers.I strongly recommend to students to get best career option at creative multimedia institute.</p>
+                  <div class="student d-flex">
+                    <div class="bg-student-img">
+                      <img src="img/vigna_-laravel-developer.jpeg" alt="" class="rounded-circle" >
+                    </div>
+                    <div class="student-user">
+                      <h6 class="mb-1 text-theme-blue font-family-rubik">Vigna Thesiya</h6>
+                      <span class="text-ffbc06 font-size-14px font-italic text-capitalize">Laravel Developer </span>
+                      <samp class="font-size-14px font-italic font-family-Roboto text-color-888888">@</samp>
+                      <span class="text-muted font-size-14px font-italic text-capitalize">  BytezTech </span>
+                    </div>
+                  </div> 
+                </div>
+                <div class="item">
+                  <p class="text-justify font-size-16px">Before joining Creative Design & Multimedia Institute(CDMI), I did not have an idea about Web designing. Only here, I learned everything right from the basics to a professional level. The faculties here gave very good technical training. I am so happy and proud to say that I am part of Creative Design & Multimedia Institute(CDMI). Thank you CDMI!</p>
+                  <div class="student d-flex">
+                    <div class="bg-student-img">
+                      <img src="img/harshad-web-design-institute-in-surat.jpg" alt="" class="rounded-circle" >
+                    </div>
+                    <div class="student-user">
+                      <h6 class="mb-1 text-theme-blue font-family-rubik">Ambaliya Harshad</h6>
+                      <span class="text-ffbc06 font-size-14px font-italic text-capitalize">Web Designer </span>
+                      <samp class="font-size-14px font-italic font-family-Roboto text-color-888888">@</samp>
+                      <span class="text-muted font-size-14px font-italic text-capitalize"> Qsek Solutions</span>
+                    </div>
+                  </div> 
+                </div>
+                <div class="item">
+                  <p class="text-justify font-size-16px">It was great studying android app development course at Creative Design & Multimedia Institute(CDMI). It had the best learning environment. The teachers are very good at teaching. I am very happy to be a part of CDMI institution. Thanks to Creative Design & Multimedia Institute(CDMI).</p>
+                  <div class="student d-flex">
+                    <div class="bg-student-img">
+                      <img src="img/mahesh-android-development-in-surat.jpg" alt="" class="rounded-circle" >
+                    </div>
+                    <div class="student-user">
+                      <h6 class="mb-1 text-theme-blue font-family-rubik">Mahesh Ambaliya</h6>
+                      <span class="text-ffbc06 font-size-14px font-italic text-capitalize">Android Developer </span>
+                      <samp class="font-size-14px font-italic font-family-Roboto text-color-888888">@</samp>
+                      <span class="text-muted font-size-14px font-italic text-capitalize"> MJ Infotech</span>
+                    </div>
+                  </div> 
+                </div>
+                <div class="item">
+                  <p class="text-justify font-size-16px">I completed my Android development course in surat from Creative Design & Multimedia Institute(CDMI). The faculties were very friendly, skilled and super cool. The mentors were at their best when it comes to development of students’ skills. During project works, they pushed me till I performed well and produced the work of current industry standards. The faculties were always ready to help when a student takes the interest to learn more in depth on certain topic or software. I got placed in a good company. Thanks to Creative Design & Multimedia Institute(CDMI).</p>
+                  <div class="student d-flex">
+                    <div class="bg-student-img">
+                      <img src="img/harshita-best-android-training-in-surat.jpg" alt="" class="rounded-circle" >
+                    </div>
+                    <div class="student-user">
+                      <h6 class="mb-1 text-theme-blue font-family-rubik">Bhojani Harshita</h6>
+                      <span class="text-ffbc06 font-size-14px font-italic text-capitalize">Android Developer </span>
+                      <samp class="font-size-14px font-italic font-family-Roboto text-color-888888">@</samp>
+                      <span class="text-muted font-size-14px font-italic text-capitalize"> Tagline Infotech</span>
+                    </div>
+                  </div> 
+                </div>
+                <div class="item">
+                  <p class="text-justify font-size-16px">I got training in Creative Design & Multimedia Institute(CDMI) for Gaming Development.  I thank Creative Design & Multimedia Institute(CDMI) for learning gamming development</p>
+                  <div class="student d-flex">
+                    <div class="bg-student-img">
+                      <img src="img/vimal-unity_game_development_training_institute_in_surat.jpg" alt="" class="rounded-circle" >
+                    </div>
+                    <div class="student-user">
+                      <h6 class="mb-1 text-theme-blue font-family-rubik">Vimal  Gajera</h6>
+                      <span class="text-ffbc06 font-size-14px font-italic text-capitalize">Game developer </span>
+                      <samp class="font-size-14px font-italic font-family-Roboto text-color-888888">@</samp>
+                      <span class="text-muted font-size-14px font-italic text-capitalize"> Diversity infotech </span>
+                    </div>
+                  </div> 
+                </div>
+                <div class="item">
+                  <p class="text-justify font-size-16px">Proudly I can say that Creative design and multimedia institute is my second home. Very helpful Institute for freshers. Such a great environment of CDMI. All faculties are well educated. Now a day i placed in such a big it company because of cdmi. The best institute for IT field. I felt very happy to join create design and multimedia institute.</p>
+                  <div class="student d-flex">
+                    <div class="bg-student-img">
+                      <img src="img/akshay-android-development-in-surat.jpg" alt="" class="rounded-circle" >
+                    </div>
+                    <div class="student-user">
+                      <h6 class="mb-1 text-theme-blue font-family-rubik">Koladiya akshay</h6>
+                      <span class="text-ffbc06 font-size-14px font-italic text-capitalize">Android Developer </span>
+                      <samp class="font-size-14px font-italic font-family-Roboto text-color-888888">@</samp>
+                      <span class="text-muted font-size-14px font-italic text-capitalize"> Helsy Infotech</span>
+                    </div>
+                  </div> 
+                </div>
+                <div class="item">
+                  <p class="text-justify font-size-16px">For me Creative Design & Multimedia Institute(CDMI) is not just about studies but it is about gaining a life-time experience that has helped me to nurture and transform into a true professional. ICreative Design & Multimedia Institute(CDMI) provided me with all the resources to ensure that learning is a never ending process. I am proud to be a part of CDMI family</p>
+                  <div class="student d-flex">
+                    <div class="bg-student-img">
+                      <img src="img/ankit-web-developmet-in-surat.jfif" alt="" class="rounded-circle" >
+                    </div>
+                    <div class="student-user">
+                      <h6 class="mb-1 text-theme-blue font-family-rubik"> Ankit Balar</h6>
+                      <span class="text-ffbc06 font-size-14px font-italic text-capitalize">Web Developer</span>
+                      <samp class="font-size-14px font-italic font-family-Roboto text-color-888888">@</samp>
+                      <span class="text-muted font-size-14px font-italic text-capitalize"> Phoenix Technolab</span>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+              <script>
+                $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                dots: false,
+                nav:true,
+                autoplay:true,
+                autoHeight: false,
+                autoHeightClass: 'owl-height',
+                autoplayTimeout:4000,
+                autoplayHoverPause:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:1
+                    },
+                    1000:{
+                        items:1
+                    }
+                  }
+                })
+              </script>
+            </div>
+          </div>  
+          <div class="col-lg-6">
+            <div class="dropdown">
+              <img src="img/testimonial_shape.png" class="w-100" alt="">
+              <div class="bg-liked ptbzindex"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-pt section-pb d-lg-block d-none bg_gray">
+      <div class="Container">
+        <div class="row justify-content-center">
+          <div class="col-8 text-center">
+            <span class="heading d-inline-block font-size-14px ">READ OUR DIFFERENCE</span> 
+             <h2 class="font-family-rubik mb-3">WHY CHOOSE CREATIVE</h2>
+           </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="icon_box text-center bg-white box_shadow2 border-radius-10">
+              <div class="index-box wcc-img bg-lay0 mb-3"></div>
+              <div class="">
+                <h5 class="font-family-rubik text-capitalize font-size-18px">Industry experts as Trainers</h5>
+                <p class="font-size-16px m-0">Our trainers have 5+ years of industry experience coupled with extensive research and analysis.</p>
+              </div>
+            </div>            
+          </div>
+          <div class="col-4">
+            <div class="icon_box text-center bg-white box_shadow2 border-radius-10">
+              <div class="index-box wcc-img bg-color-ffbc06 mb-3"></div>
+              <div class="">
+                <h5 class="font-family-rubik text-capitalize font-size-18px">Latest Curriculum</h5>
+                <p class="font-size-16px m-0">We Provides latest curriculum for all courses which designed in such a way that Students will get full knowledge within a short time.</p>
+              </div>
+            </div>            
+          </div>
+          <div class="col-4">
+            <div class="icon_box text-center bg-white box_shadow2 border-radius-10">
+              <div class="index-box wcc-img bg-lay1 mb-3"></div>
+              <div class="">
+                <h5 class="font-family-rubik text-capitalize font-size-18px">Latest Technology</h5>
+                <p class="font-size-16px m-0">We strive to let you have a solid foundational knowledge of technologies shaping the IT World today.</p>
+              </div>
+            </div>            
+          </div>
+          <div class="col-4">
+            <div class="icon_box text-center bg-white box_shadow2 border-radius-10">
+              <div class="index-box wcc-img bg-lay2 mb-3"></div>
+              <div class="">
+                <h5 class="font-family-rubik text-capitalize font-size-18px">Interview Assistance</h5>
+                <p class="font-size-16px m-0">At the end of each training,our training instructor will go through the possible technical questions you may be asked.</p>
+              </div>
+            </div>            
+          </div>
+          <div class="col-4">
+            <div class="icon_box text-center bg-white box_shadow2 border-radius-10">
+              <div class="index-box wcc-img bg-lay3 mb-3"></div>
+              <div class="">
+                <h5 class="font-family-rubik text-capitalize font-size-18px">Free Upgradation</h5>
+                <p class="font-size-16px m-0">We will be provided free upgradation for any newer version of the course you have.</p>
+              </div>
+            </div>            
+          </div>
+          <div class="col-4">
+            <div class="icon_box text-center bg-white box_shadow2 border-radius-10">
+              <div class="index-box wcc-img bg-lay4 mb-3"></div>
+              <div class="">
+                <h5 class="font-family-rubik text-capitalize font-size-18px">Lifetime Support</h5>
+                <p class="font-size-16px m-0">We will provide you lifetime support on all the courses you learned from us.</p>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-pt section-pb">
+      <div class="Container">
+        <div class="row justify-content-center">
+          <div class="col-8 text-center">
+            <span class="heading d-inline-block font-size-14px ">STUDENT PLACEMENT</span> 
+             <h2 class="font-family-rubik mb-3">OUR RECRUITMENT PARTNERS</h2>
+           </div>
+        </div>
+        <div class="row">
+          <div class="col-12 OUR_REC_PARTNERS">
+            <div class="owl-carousel owl-theme">
+              <div class="item"><a href=""><img src="img/i1.png" class="border-1pxddd" alt="" data-toggle="tooltip" data-placement="top" title="haresh"></a></div>
+              <div class="item"><a href=""><img src="img/i2.png" class="border-1pxddd" alt="" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></a></div>
+              <div class="item"><a href=""><img src="img/i3.png" class="border-1pxddd" alt="" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></a></div>
+              <div class="item"><a href=""><img src="img/i4.png" class="border-1pxddd" alt="" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></a></div>
+              <div class="item"><a href=""><img src="img/i5.png" class="border-1pxddd" alt="" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></a></div>
+              <div class="item"><a href=""><img src="img/i6.png" class="border-1pxddd" alt="" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></a></div>
+              <div class="item"><a href=""><img src="img/i7.png" class="border-1pxddd" alt="" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></a></div>
+              <div class="item"><a href=""><img src="img/i8.png" class="border-1pxddd" alt="" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></a></div>
+              <div class="item"><a href=""><img src="img/i9.jpg" class="border-1pxddd" alt="" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></a></div>
+              <div class="item"><a href=""><img src="img/i10.png" class="border-1pxddd"  alt="" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></a></div>
+              <div class="item"><a href=""><img src="img/i3.png" class="border-1pxddd" alt="" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></a></div>
+            </div>
+            <script>
+              $('.owl-carousel').owlCarousel({
+              loop:true,
+              margin:15,
+              nav:true,
+              autoplay:false,
+              autoplayTimeout:4000,
+              autoplayHoverPause:true,
+              dots: false,
+              responsive:{
+                  0:{
+                      items:2
+                  },
+                  380:{
+                      items:3
+                  },
+                  600:{
+                      items:4
+                  },
+                  992:{
+                    items:4
+                  },
+                  1000:{
+                      items:5
+                  }
+                }
+              })
+            </script>
+            <script>
+              $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-pb">
+      <div class="Container">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="d-inline-block Our_Demanded text-capitalize dropup font-family-rubik">Our Demanded Course - </h5>
+            <div class="hide-cour tags">
+              <a href="" class="text-capitalize d-inline-block">Game design training institute in varachha</a>
+              <a href="" class="text-capitalize d-inline-block">mechanical engineering training institute </a>
+              <a href="" class="text-capitalize d-inline-block">Tally accounting training institute in varachha</a>
+              <a href="" class="text-capitalize d-inline-block">flutter training course</a>
+              <a href="" class="text-capitalize d-inline-block">computer institutes in adajan</a>
+              <a href="" class="text-capitalize d-inline-block">game design class in varachha</a>
+              <a href="" class="text-capitalize d-inline-block">Google sketchup training institute in adajan</a>
+              <a href="" class="text-capitalize d-inline-block">C programming language training institute in katargam</a>
+              <a href="" class="text-capitalize d-inline-block">Web design training institute in varachha</a>
+              <a href="" class="text-capitalize d-inline-block">Illustrator training course</a>
+              <a href="" class="text-capitalize d-inline-block">PHP company in surat</a>
+              <a href="" class="text-capitalize d-inline-block">nodejs training institute in adajan</a>
+              <a href="" class="text-capitalize d-inline-block">python training course</a>
+              <a href="" class="text-capitalize d-inline-block">Latest technology course</a>
+              <a href="" class="text-capitalize d-inline-block">python training institute in katargam</a>
+              <a href="" class="text-capitalize d-inline-block">Video editing training institute in surat</a>
+            </div>
+            <a href="">Show More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="section-pt section-pb bg-theme-blue footer-top">
+      <div class="Container">
+        <div class="row">
+          <div class="col-lg-3 col-md-5 col-12">
+            <div class="footer-logo mb-3">
+              <img src="img/creative-logo-white.svg" class="w-75 cursor-pointer" alt="">
+            </div>
+            <p class="text-justify fff font-size-12px mb-3">Creative Design and Multimedia Institute is leading computer training institute in surat. We offers government approved computer training courses in Surat.</p>
+            <h6 class="Our_Demanded text-ffbc06 text-uppercase m-top-0 pt-3 font-family-rubik Follow_Us_On">Follow Us On</h6>
+            <ul class="footer-icon-solid d-flex flex-wrap">
+              <li><a href="" class="footer-icon text-center border-radius-5 fff"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="" class="footer-icon text-center border-radius-5 fff"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="" class="footer-icon text-center border-radius-5 fff"><i class="fa-brands fa-google-plus-g"></i></a></li>
+              <li><a href="" class="footer-icon text-center border-radius-5 fff"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="" class="footer-icon text-center border-radius-5 fff"><i class="fa-brands fa-instagram-square"></i></a></li>
+              <li><a href="" class="footer-icon text-center border-radius-5 fff"><i class="fa-brands fa-youtube"></i></a></li>
+              <li><a href="" class="footer-icon text-center border-radius-5 fff"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <h6 class="fff text-uppercase m-top-0 font-family-rubik Our_Demanded Follow_Us_On">Feature Links</h6>
+            <ul class="FEATURE_LINKS">
+              <li><a href="" class="fff">About Us</a></li>
+              <li><a href="" class="fff">Blogs</a></li>
+              <li><a href="" class="fff">Join Us</a></li>
+              <li><a href="" class="fff">Company Login</a></li>
+              <li><a href="" class="fff">Certificate Verification</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <h6 class="fff text-uppercase m-top-0 font-family-rubik Our_Demanded Follow_Us_On">Trendy Courses</h6>
+            <ul class="FEATURE_LINKS">
+              <li><a href="" class="fff">Python course training</a></li>
+              <li><a href="" class="fff">Node JS course training</a></li>
+              <li><a href="" class="fff">Angular JS course training</a></li>
+              <li><a href="" class="fff">React JS course training</a></li>
+              <li><a href="" class="fff">Unity 3D course training</a></li>
+              <li><a href="" class="fff">Ethical Hacking course training</a></li>
+              <li><a href="" class="fff">React Native course training</a></li>
+              <li><a href="" class="fff">Desktop App Development course training</a></li>
+              <li><a href="" class="fff">Advanced ASP.net development course training</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-5 col-md-12 col-12  cre-branch">
+            <h6 class="fff text-uppercase m-top-0 font-family-rubik Our_Demanded Follow_Us_On">Our Branches</h6>
+            <div class="mb-3">
+              <h6 class="text-uppercase creative-branch mb-2  font-family-rubik"><a href=""  class="text-ffbc06">Head Office - Yogichowk</a></h6>
+              <span class="fff font-size-16px">401-404, 4 <sup class="fff">th</sup> Floor, City Center Complex, Nr. Yogichowk, Varachha</span>,<span class="fff font-size-16px">Surat</span>
+              <p class="fff">Mo : <a href="" class="text-ffbc06">+91 90333 16003</a></p>
+            </div>
+            <div class="mb-3">
+              <h6 class="text-uppercase creative-branch mb-2  font-family-rubik"><a href=""  class="text-ffbc06">Branch 1 - KATARGAM</a></h6>
+              <span class="fff font-size-16px">327-334, 3<sup class="fff">rd</sup>  Floor, Laxmi Enclave, Opp. Gajera School, Katargam</span>,<span class="fff font-size-16px">Surat</span>
+              <p class="fff">Mo : <a href="" class="text-ffbc06">+91 90 3333 5009</a></p>
+            </div>
+            <div class="mb-3">
+              <h6 class="text-uppercase creative-branch mb-2  font-family-rubik"><a href=""  class="text-ffbc06">Branch 2 - Mota Varachha</a></h6>
+              <span class="fff font-size-16px">B 201-203, 2<sup class="fff">nd</sup> Floor, Aditya Complex, VIP Circle, Utran</span>,<span class="fff font-size-16px">Mota Varachha,Surat</span>
+              <p class="fff">Mo : <a href="" class="text-ffbc06">+91 90333 16003</a></p>
+            </div>
+            <div class="get_vir_tour">
+              <a href="" class="btn overflow_hidden rounded-0 position-relative font-weight-bold foda my-2"><i class="fa fa-binoculars mr-2"></i>Get Virtual Tour</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom bg_blue_dark2">
+      <div class="Container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="m-md-0 fff">© 2022 All Rights Reserved by Creative Design & Multimedia Institute.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
